@@ -30,7 +30,7 @@ public class LambdaFunctionHandler implements RequestHandler<DynamodbEvent, Inte
 	private static final String MIME_TYPE = "mime-type";
 	private static final String FULLTEXT_REF = "fulltext-ref";
 	private static final String DYNAMO_DB_RECORD_ID = "dynamodb-record-id";
-	private static final String BUCKET_NAME = "mybucket-05-2021";
+	private static final String BUCKET_NAME = "copydynamodbcontentbucket";
 	private static final String FULLTEXT_COLLECTION = "FullTextCollection";
 	// private static final String META_COLLECTION="MetaCollection";
 
